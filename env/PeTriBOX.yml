@@ -1,0 +1,25 @@
+name: petribox
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7.12
+  - pytorch=1.12.1
+  - torchvision=0.13.1
+  - torchaudio=0.12.1
+  - cudatoolkit=11.3
+  - biopython
+  - pandas
+  - tqdm
+  - scikit-learn
+  - matplotlib
+  - transformers
+  - pip
+  - nomkl  # avoid conflicts with MKL
+  - pip:
+      - pytorch-fast-transformers==0.4.0
+      - tensorboard
+      - h5py 
+      - gdown 

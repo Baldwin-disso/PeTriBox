@@ -6,6 +6,8 @@ PeTriBOX is a collection of fully trainable protein sequence-structure transform
 
 We also provide a fine-tuned model named **PeTriPPI**, which enhances **HAPI-PPI**, a protein-protein interaction (PPI) detection tool in our [HAPI](https://github.com/Baldwin-disso/Alphafold2_hapi) toolbox.
 
+PeTriBERT, PeTriPOV, PeTriMPOV and PeTriPPI all are original models descibed in our papers [here](https://www.biorxiv.org/content/10.1101/2022.08.10.503344v1) and [here](https://www.biorxiv.org/content/10.1101/2025.03.05.641631v1)
+
 ---
 
 ## **Installation**
@@ -383,11 +385,11 @@ For PeTriPOV, PeTriMPOV and PeTrIPPI
 
 ```
 @article{connesson2025hapi,
-  title={FILL},
-  author={FILL},
+  title={Boosting Protein-Protein Interaction Detection with AlphaFold Multimer and Transformers},
+  author={Connesson, l{\'e}na and Krouk, Gabriel and Dumortier, Baldwin},
   journal={BioRxiv},
-  pages={FILL},
-  year={FILL},
+  pages={2025--03},
+  year={2025},
   publisher={Cold Spring Harbor Laboratory}
 }
 ```
